@@ -19,4 +19,4 @@ except Exception as e:
     print(e)
     print(e.__doc__)
     exit(1)
-print("x: {:6.2f} y:{:6.2f}".format(x, y))
+print("x: {} y:{}".format(x, y))
