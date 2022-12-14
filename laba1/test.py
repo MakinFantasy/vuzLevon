@@ -1,4 +1,5 @@
-from math import sqrt, log
+a = int(input("Please send dickpick: "))
+print(type(a))
+1
 
-
-print(log(64, 8))
+1.5

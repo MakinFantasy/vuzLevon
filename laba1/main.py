@@ -6,10 +6,10 @@ def calculate():
         print("Первая формула: ", '\n')
         for i in range(5):
             print('Тест ', i + 1)
-            a = int(input("Введите параметр а: "))
-            b = int(input("Введите параметр b: "))
+            a = float(input("Введите параметр а: "))
+            b = float(input("Введите параметр b: "))
             try:
-                z = a ** sqrt(log(b, a)) - b ** sqrt(log(a, b)) + tan(a*b + 3*pi/2)
+                z = (a ** sqrt(log(b, a))) - (b ** sqrt(log(a, b))) + (tan((a*b) + ((3*pi)/2)))
                 print("Ответ: ", z)
             except Exception as e:
                 print("Ответ: ОДЗ")
